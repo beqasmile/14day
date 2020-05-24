@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -23,8 +24,9 @@ namespace EncodingDecoding
             {
                 ourQueue.Enqueue(encodedNum);
             }
-            //---------------------------------------------------------
-
+            //--------------------------------------------------------
+            //Console.WriteLine( ourQueue.ToString());
+            //--------------------------------------------------------
             List<int> queueList = new List<int>();
             while (ourQueue.Count!=0)
             {
@@ -43,7 +45,16 @@ namespace EncodingDecoding
 
             foreach (char c in myLongMessage)
             {
-                result.Add(Convert.ToInt32(c) +3);
+                int num = Convert.ToInt32(c);
+                if (num%2==0)
+                {
+                    num = num + 2;  // b = 66 =>  sending code 68   => 68-2 = 66; 66%2 ==0 ; => b
+                }
+                else
+                {
+                    num = num + 4; // c = 67 -> sending code 71 => 71 %2 != 0 => 71-4 =? 67 => b
+                }
+                result.Add(num);
             }
             
             return result;
@@ -55,7 +66,16 @@ namespace EncodingDecoding
 
             foreach (int decodedNum in myDecodedMessage)
             {
-                result = result + System.Convert.ToChar(decodedNum-3);
+                int tempnum = decodedNum;
+                if (decodedNum % 2 == 0)
+                {
+                    tempnum = decodedNum - 2;
+                }
+                else
+                {
+                    tempnum = decodedNum - 4;
+                }
+                result = result + System.Convert.ToChar(tempnum);
             }
 
 
