@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsciiTable", "AsciiTable\AsciiTable.csproj", "{A9ACD76F-2FB3-4C14-BC3D-06878D04063E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncodingDecoding", "EncodingDecoding\EncodingDecoding.csproj", "{07980549-A271-4906-828A-5F03933A8A5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9ACD76F-2FB3-4C14-BC3D-06878D04063E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9ACD76F-2FB3-4C14-BC3D-06878D04063E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9ACD76F-2FB3-4C14-BC3D-06878D04063E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9ACD76F-2FB3-4C14-BC3D-06878D04063E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07980549-A271-4906-828A-5F03933A8A5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07980549-A271-4906-828A-5F03933A8A5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07980549-A271-4906-828A-5F03933A8A5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07980549-A271-4906-828A-5F03933A8A5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2BA4EBC7-96B4-4795-AB46-7D56C7E298D7}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,7 @@
+C:\dev\14day\AsciiTable\AsciiTable\bin\Debug\AsciiTable.exe.config
+C:\dev\14day\AsciiTable\AsciiTable\bin\Debug\AsciiTable.exe
+C:\dev\14day\AsciiTable\AsciiTable\bin\Debug\AsciiTable.pdb
+C:\dev\14day\AsciiTable\AsciiTable\obj\Debug\AsciiTable.csprojAssemblyReference.cache
+C:\dev\14day\AsciiTable\AsciiTable\obj\Debug\AsciiTable.csproj.CoreCompileInputs.cache
+C:\dev\14day\AsciiTable\AsciiTable\obj\Debug\AsciiTable.exe
+C:\dev\14day\AsciiTable\AsciiTable\obj\Debug\AsciiTable.pdb

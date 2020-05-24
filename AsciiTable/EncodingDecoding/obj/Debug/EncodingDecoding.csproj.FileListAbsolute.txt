@@ -1,0 +1,7 @@
+C:\dev\14day\AsciiTable\EncodingDecoding\bin\Debug\EncodingDecoding.exe.config
+C:\dev\14day\AsciiTable\EncodingDecoding\bin\Debug\EncodingDecoding.exe
+C:\dev\14day\AsciiTable\EncodingDecoding\bin\Debug\EncodingDecoding.pdb
+C:\dev\14day\AsciiTable\EncodingDecoding\obj\Debug\EncodingDecoding.csproj.CoreCompileInputs.cache
+C:\dev\14day\AsciiTable\EncodingDecoding\obj\Debug\EncodingDecoding.exe
+C:\dev\14day\AsciiTable\EncodingDecoding\obj\Debug\EncodingDecoding.pdb
+C:\dev\14day\AsciiTable\EncodingDecoding\obj\Debug\EncodingDecoding.csprojAssemblyReference.cache
