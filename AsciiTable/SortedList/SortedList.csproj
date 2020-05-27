@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Driver.cs" />
     <Compile Include="EnumLisencseType.cs" />
+    <Compile Include="Language.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
