@@ -14,8 +14,8 @@ namespace SortedList
 
         public Language(int code, string name)
         {
-            this.code = code;
-            this.name = name;
+            this.Code = code;
+            this.Name = name;
 
 
             char firstLetter = 'A';
@@ -31,6 +31,18 @@ namespace SortedList
 
         }
 
+        public string Name { get => name; set => name = value; }
+        public int Code { get => code; set => code = value; }
 
+
+        public void PrintLanguage()
+        {
+            Console.WriteLine();
+            foreach (char letter in this.lettersInLanguage)
+            {
+                Console.Write(letter + ",");
+            }
+            Console.WriteLine();
+        }
     }
 }
